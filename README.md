@@ -38,7 +38,7 @@ This project aims to build a personalized AI system that recommends daily diet p
 
 
 ---
-## ✍ Implementation & Development
+## 🛠️ Implementation & Development
 
 ---
 ## 📊 Evaluation & Results
