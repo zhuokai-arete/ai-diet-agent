@@ -1,5 +1,5 @@
 
-readme_content = """# AI-Diet-Agent
+# AI-Diet-Agent
 
 A personalized AI diet recommendation agent powered by reinforcement learning and adaptive AI assistance.
 
