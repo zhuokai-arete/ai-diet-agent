@@ -22,7 +22,7 @@ This project aims to build a personalized AI system that recommends daily diet p
 ### 📏 From a Nutrition Perspective:
 不再使用统一健康标准套用所有人，而是结合个体生理状态与饮食偏好，动态生成多目标平衡下的推荐（满意度 / 健康目标 / 热量控制），为用户提供科学且真正个性化的饮食建议。
 
-### 💴 From an Economics Perspective:
+### 🏦 From an Economics Perspective:
 构建了一个模拟“真实人类决策”的系统，刻画出“有限理性 + 延迟满足 + 资源约束”下的效用最大化路径，从而回答：“人为什么知道健康但难以坚持？”，并提供了可持续的优化路径，使“健康饮食”变得像“呼吸一样自然”。
 
 ### 🤖 From an AI Product Perspective:
@@ -38,7 +38,7 @@ This project aims to build a personalized AI system that recommends daily diet p
 
 
 ---
-## ✍️ Implementation & Development
+## ✍ Implementation & Development
 
 ---
 ## 📊 Evaluation & Results
