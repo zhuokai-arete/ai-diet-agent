@@ -1,10 +1,10 @@
 
-# AI-Diet-Agent
+## AI-Diet-Agent
 
 A personalized AI diet recommendation agent powered by reinforcement learning and adaptive AI assistance.
 
 
-## 📌 Project Overview
+## Project Overview
 
 This project aims to build a personalized AI system that recommends daily diet plans based on user goals (e.g., fat loss, muscle gain), physical parameters, and historical behavior. The system simulates economic decision-making under constraints (satisfaction, health targets, and calorie budget), integrates reinforcement learning to optimize recommendations, and uses a large language model (LLM) to generate interpretable suggestions.
 
@@ -13,5 +13,5 @@ This project aims to build a personalized AI system that recommends daily diet p
 
 ---
 
-## 📁 Repository Structure
+## Repository Structure
 
