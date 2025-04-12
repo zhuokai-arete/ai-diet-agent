@@ -12,13 +12,14 @@ This project aims to build a personalized AI system that recommends daily diet p
 > **Repository Status:** In development
 
 ---
-## 🎯 Project Motivation & Value
+## 🎯 Project Background
 
 传统营养类产品往往以“生理最优”为核心，假设人类会严格遵循营养学规则进行饮食管理。这类方法忽视了个体目标的多样性、行为的非理性以及长期坚持的心理疲劳。
 
 而基于大模型的网页 AI 问答工具虽能提供一定自由度，但其使用门槛高：用户需主动描述问题、设定目标、反馈调整，既增加了信息输入成本，也要求用户具备长期规划能力与决策执行力。这类系统更像是“辅助咨询”，而非“智能陪伴与引导”。
 
 ---
+## 🚀 Motivation & Innovation value
 本项目将饮食行为重新建模为“资源有限下的多目标最优化过程”，引入经济学中的效用函数、预算约束与行为动态系统，构建一个强化学习驱动的个性化行为-目标智能体，实现以下创新价值：
 
 ### 🔬 From a Nutrition Perspective:
@@ -29,6 +30,10 @@ This project aims to build a personalized AI system that recommends daily diet p
 
 ### 🤖 From an AI Product Perspective:
 将“问答式AI”进化为“结构化辅助决策系统”，让 AI 不只是回答问题，而是通过策略学习，帮助用户节省时间、减轻思考负担、提升执行力，真正成为“懂你”的行为智能体。
+
+---
+## 🧾 Research & Industry Relevance
+
 
 ---
 ## Repository Structure
