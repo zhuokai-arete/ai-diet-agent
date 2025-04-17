@@ -3,10 +3,15 @@
 
 A personalized AI diet recommendation agent powered by reinforcement learning and adaptive AI assistance.
 
-
+---
 ## ⭐ Project Overview
 
 This project aims to build a personalized AI system that recommends daily diet plans based on user goals (e.g., fat loss, muscle gain), physical parameters, and historical behavior. The system simulates economic decision-making under constraints (satisfaction, health targets, and calorie budget), integrates reinforcement learning to optimize recommendations, and uses a large language model (LLM) to generate interpretable suggestions.
+
+---
+## 👥 Team Contributions & Roles
+
+
 
 ---
 ## 🎯 Project Background
@@ -17,6 +22,7 @@ This project aims to build a personalized AI system that recommends daily diet p
 
 ---
 ## 🚀 Motivation & Innovation value
+
 本项目将饮食行为重新建模为“资源有限下的多目标最优化过程”，引入经济学中的效用函数、预算约束与行为动态系统，构建一个强化学习驱动的个性化行为-目标智能体，实现以下创新价值：
 
 ### 📏 From a Nutrition Perspective:
