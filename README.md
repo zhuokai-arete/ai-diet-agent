@@ -31,4 +31,23 @@ Evolve "question-and-answer AI" into a "structured decision support system" so t
 
 ---
 ## ✨ Repository Structure
+📦 AI-Nutrition-Recommender
+│
+├── embedding_recommender_multi.py        # 🔁 Train multi-objective RL scoring model using embedding vectors
+├── main_v4_loop_fixed.py                 # 🚀 Main program: generates, scores, explains, and loops with feedback
+│
+├── choose_best_embedding.py              # 🧠 Utility: selects the best plan based on total or multi-metric score
+├── generate_llm_feedback.py              # 📝 Utility: builds new prompts with user feedback for adaptive generation
+│
+├── structured_training_data.csv          # 📊 Training dataset with user plans and annotated feedback (satisfaction, health, etc.)
+├── utils/                                # 🔧 Helper functions (e.g., embedding computation, JSON parsing, scoring rules)
+│
+├── frontend/                             # 🌐 Frontend interface (Next.js + Tailwind)
+│   ├── components/                       # React components: form, recommendation display, feedback form
+│   ├── pages/                            # API routes and frontend logic
+│   └── styles/                           # Tailwind and global CSS
+│
+├── README.md                             # 📘 Project overview and usage instructions
+├── requirements.txt                      # 🧪 Python dependency list
+└── demo/                                 # 📽️ Screenshots, video demos, and outputs (optional)
 
