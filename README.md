@@ -32,23 +32,28 @@ Evolve "question-and-answer AI" into a "structured decision support system" so t
 ---
 ## ✨ Repository Structure
 ```
+## 📁 Project Directory Structure
+
+```
 📦 AI-Nutrition-Recommender
 │
-├── embedding_recommender_multi.py        # 🔁 Train multi-objective RL scoring model using embedding vectors
-├── main_v4_loop_fixed.py                 # 🚀 Main program: generates, scores, explains, and loops with feedback
+├── app/                               # 🔧 Next.js app directory (pages & routing)
+├── components/                        # 🧩 React components (form, feedback, display)
+├── 后端api部分/                         # 🧠 Python backend logic (model + generation + scoring)
+│   ├── embedding_recommender_multi.py     # Train multi-objective RL model
+│   ├── main_v4_loop_fixed.py              # Main closed-loop execution: generate, score, explain, feedback
+│   ├── choose_best_embedding.py           # Selects best plan using embedding similarity
+│   └── generate_llm_feedback.py           # Injects user feedback into prompt
 │
-├── choose_best_embedding.py              # 🧠 Utility: selects the best plan based on total or multi-metric score
-├── generate_llm_feedback.py              # 📝 Utility: builds new prompts with user feedback for adaptive generation
-│
-├── structured_training_data.csv          # 📊 Training dataset with user plans and annotated feedback (satisfaction, health, etc.)
-├── utils/                                # 🔧 Helper functions (e.g., embedding computation, JSON parsing, scoring rules)
-│
-├── frontend/                             # 🌐 Frontend interface (Next.js + Tailwind)
-│   ├── components/                       # React components: form, recommendation display, feedback form
-│   ├── pages/                            # API routes and frontend logic
-│   └── styles/                           # Tailwind and global CSS
-│
-├── README.md                             # 📘 Project overview and usage instructions
-├── requirements.txt                      # 🧪 Python dependency list
-└── demo/                                 # 📽️ Screenshots, video demos, and outputs (optional)
+├── README.md                         # 📘 Project overview and documentation
+├── task.md                           # 🗂️ Project to-do and progress log
+├── package.json                      # 📦 Node.js project config
+├── package-lock.json                 # 🔐 Dependency lockfile
+├── package-lock 2.json              # ⚠️ Duplicate lockfile (can remove)
+├── tailwind.config.js               # 🎨 Tailwind CSS config
+├── postcss.config.js                # 🧪 CSS processor config
+├── tsconfig.json                    # 🧱 TypeScript config
+├── next-env.d.ts                    # 🌐 Next.js type declarations
+```
+
 ```
