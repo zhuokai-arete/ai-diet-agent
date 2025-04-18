@@ -36,7 +36,7 @@ Evolve "question-and-answer AI" into a "structured decision support system" so t
 │
 ├── app/                               # 🔧 Next.js app directory (pages & routing)
 ├── components/                        # 🧩 React components (form, feedback, display)
-├── backend/                         # 🧠 Python backend logic (model + generation + scoring)
+├── backend/                           # 🧠 Python backend logic (model + generation + scoring)
 │   ├── embedding_recommender_multi.py     # Train multi-objective RL model
 │   ├── main_v4_loop_fixed.py              # Main closed-loop execution: generate, score, explain, feedback
 │   ├── choose_best_embedding.py           # Selects best plan using embedding similarity
