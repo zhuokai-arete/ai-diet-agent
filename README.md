@@ -31,6 +31,7 @@ Evolve "question-and-answer AI" into a "structured decision support system" so t
 
 ---
 ## ✨ Repository Structure
+```
 📦 AI-Nutrition-Recommender
 │
 ├── embedding_recommender_multi.py        # 🔁 Train multi-objective RL scoring model using embedding vectors
@@ -50,4 +51,4 @@ Evolve "question-and-answer AI" into a "structured decision support system" so t
 ├── README.md                             # 📘 Project overview and usage instructions
 ├── requirements.txt                      # 🧪 Python dependency list
 └── demo/                                 # 📽️ Screenshots, video demos, and outputs (optional)
-
+```
