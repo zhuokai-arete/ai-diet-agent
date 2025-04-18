@@ -29,9 +29,6 @@ A system that simulates "real human decision-making" was built to depict the uti
 ### 🤖 From an AI Product Perspective:
 Evolve "question-and-answer AI" into a "structured decision support system" so that AI does not just answer questions, but helps users save time, reduce thinking burden, and improve execution through strategy learning, truly becoming a behavioral intelligent entity that "understands you".
 
----
-## ✨ Repository Structure
-```
 ## 📁 Project Directory Structure
 
 ```
