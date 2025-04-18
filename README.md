@@ -9,11 +9,6 @@ A personalized AI diet recommendation agent powered by reinforcement learning an
 This project aims to build a personalized AI system that recommends daily diet plans based on user goals (e.g., fat loss, muscle gain), physical parameters, and historical behavior. The system simulates economic decision-making under constraints (satisfaction, health targets, and calorie budget), integrates reinforcement learning to optimize recommendations, and uses a large language model (LLM) to generate interpretable suggestions.
 
 ---
-## 👥 Team Contributions & Roles
-
-
-
----
 ## 🎯 Project Background
 
 Traditional nutrition products often focus on "physiological optimality" and assume that humans will strictly follow nutritional rules for diet management. This approach ignores the diversity of individual goals, irrational behavior, and psychological fatigue of long-term persistence.
