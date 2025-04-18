@@ -56,4 +56,3 @@ Evolve "question-and-answer AI" into a "structured decision support system" so t
 ├── next-env.d.ts                    # 🌐 Next.js type declarations
 ```
 
-```
