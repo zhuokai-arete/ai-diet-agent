@@ -1,3 +1,4 @@
+
 # generate_llm_feedback.py
 import openai
 
@@ -5,6 +6,14 @@ client = openai.OpenAI(
     base_url="https://api.deepseek.com/v1",
     api_key="sk-c8cd17b77764463da9bd39bcc6ef552f"  # 替换为你自己的key
 )
+
+def run_deepseek_prompt(prompt: str):
+    response = client.chat.completions.create(
+        model="deepseek-chat",
+        messages=[{"role": "user", "content": prompt}],
+        temperature=0.95
+    )
+    return response.choices[0].message.content
 
 def generate_prompt(user_profile, feedback_scores=None):
     feedback_text = ""
@@ -48,14 +57,6 @@ def generate_prompt(user_profile, feedback_scores=None):
 }}
 """
 
-def run_deepseek_prompt(user_profile, feedback_scores=None):
-    prompt = generate_prompt(user_profile, feedback_scores)
-    response = client.chat.completions.create(
-        model="deepseek-chat",
-        messages=[{"role": "user", "content": prompt}],
-        temperature=0.95
-    )
-    return response.choices[0].message.content
-
 def generate_llm_candidates(user_profile, n=5, feedback_scores=None):
-    return [run_deepseek_prompt(user_profile, feedback_scores) for _ in range(n)]
+    prompt = generate_prompt(user_profile, feedback_scores)
+    return [run_deepseek_prompt(prompt) for _ in range(n)]
